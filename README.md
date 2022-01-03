@@ -1,8 +1,8 @@
 # __100_site_challenges__ 🎉
 
-| Number | Link | Version |
-| ------ | ------ | ------ |
-| `1` | [ __www.vox.com__ ](https://www.vox.com/2014/6/16/18076282/the-internet) | 01 |
+| Number | Source web | My version | Version |
+| ------ | ------ | ------ | ------ |
+| `1` | [ __www.vox.com__ ](https://www.vox.com/2014/6/16/18076282/the-internet) | [__100_site_challenges/vox.com__](https://dohuy5360.github.io/100_site_challenges/vox.com/html.html) | 01 |
 | `2` | |
 | `3` | |
 | `4` | |
