@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <link rel="icon" type="image/png" href="https://cdn.vox-cdn.com/community_logos/52517/voxv.png">
+    <title>The internet, explan</title>
+
+</head>
+<body>
+    <div class="hide_bar">
+        <svg id="logo_in_hideBar" viewBox="0 0 242 121">
+            <path fill="#444745" d="M110.674 3.528h3.474L114.564 2H71.63l-.418 1.528h6.253c5.418 0 9.726 3.75 9.726 11.255 0 4.168-1.8 9.587-4.72 16.118L54.82 92.32l-6.81-79.756c-.556-6.252 2.5-9.03 9.59-9.03h4.027L62.042 2H1.6l-.557 1.528h3.89c4.725 0 6.532 2.918 7.087 8.615l10.7 103.1h25.427l42.518-90.038c6.392-13.48 13.2-21.677 20.01-21.677zm-5.002 112.27c-3.89 0-6.253-1.25-6.253-7.642 0-8.06 2.91-23.76 6.11-38.072.41 6.67 5 13.2 11.81 13.2 1.67 0 3.06-.138 4.44-.417-6.26 27.236-8.76 32.932-16.12 32.932zm121.024-54.19c8.06 0 13.2-6.67 13.2-14.173 0-6.392-4.585-11.116-11.115-11.116-11.81 0-17.36 9.31-27.09 26.53-2.08-10.7-6.94-24.73-19.45-24.73-14.03 0-30.15 20.01-45.02 32.37-6.67 5.56-14.17 9.17-20.15 9.17-6.11 0-9.72-6.26-9.72-17.23 4.31-17.93 6.67-22.65 13.34-22.65 4.59 0 6.53 2.64 6.53 8.06 0 5.69-1.25 15.42-3.75 27.51 6.67-2.09 16.68-10.42 25.01-19.45-4.44-10.56-13.89-17.79-27.65-17.79-25.42 0-47.66 22.78-47.66 48.35 0 17.65 12.51 30.984 32.1 30.984 32.38 0 45.86-28.066 45.86-47.52 0-2.78-.14-4.86-.42-7.364C155.717 57.14 162.108 52 167.388 52c5.975 0 10.7 15.007 15.423 37.657-4.17 4.58-8.34 13.474-10.42 15.002-.836-8.06-6.115-13.06-13.2-13.06-7.92 0-13.48 7.5-13.48 13.893 0 7.226 5 11.95 11.53 11.95 13.76 0 17.65-13.062 26.265-24.595 2.64 12.363 8.754 24.59 19.313 24.59 12.506 0 24.178-10.7 30.15-18.34l-1.11-1.81c-3.89 3.753-7.642 6.254-11.95 6.254-7.78 0-13.34-16.81-17.645-37.1 2.5-3.47 6.53-12.225 9.31-15.28 1.95 3.612 5.978 10.42 15.15 10.42z">
+            </path>
+        </svg>
+        <a href="#bot">Give</a>
+    </div>
+    <div class="head_container">
+        <div class="left">
+            <div class="wrap_topic">
+                <svg viewBox="0 0 242 121">
+                    <path fill="#444745" d="M110.674 3.528h3.474L114.564 2H71.63l-.418 1.528h6.253c5.418 0 9.726 3.75 9.726 11.255 0 4.168-1.8 9.587-4.72 16.118L54.82 92.32l-6.81-79.756c-.556-6.252 2.5-9.03 9.59-9.03h4.027L62.042 2H1.6l-.557 1.528h3.89c4.725 0 6.532 2.918 7.087 8.615l10.7 103.1h25.427l42.518-90.038c6.392-13.48 13.2-21.677 20.01-21.677zm-5.002 112.27c-3.89 0-6.253-1.25-6.253-7.642 0-8.06 2.91-23.76 6.11-38.072.41 6.67 5 13.2 11.81 13.2 1.67 0 3.06-.138 4.44-.417-6.26 27.236-8.76 32.932-16.12 32.932zm121.024-54.19c8.06 0 13.2-6.67 13.2-14.173 0-6.392-4.585-11.116-11.115-11.116-11.81 0-17.36 9.31-27.09 26.53-2.08-10.7-6.94-24.73-19.45-24.73-14.03 0-30.15 20.01-45.02 32.37-6.67 5.56-14.17 9.17-20.15 9.17-6.11 0-9.72-6.26-9.72-17.23 4.31-17.93 6.67-22.65 13.34-22.65 4.59 0 6.53 2.64 6.53 8.06 0 5.69-1.25 15.42-3.75 27.51 6.67-2.09 16.68-10.42 25.01-19.45-4.44-10.56-13.89-17.79-27.65-17.79-25.42 0-47.66 22.78-47.66 48.35 0 17.65 12.51 30.984 32.1 30.984 32.38 0 45.86-28.066 45.86-47.52 0-2.78-.14-4.86-.42-7.364C155.717 57.14 162.108 52 167.388 52c5.975 0 10.7 15.007 15.423 37.657-4.17 4.58-8.34 13.474-10.42 15.002-.836-8.06-6.115-13.06-13.2-13.06-7.92 0-13.48 7.5-13.48 13.893 0 7.226 5 11.95 11.53 11.95 13.76 0 17.65-13.062 26.265-24.595 2.64 12.363 8.754 24.59 19.313 24.59 12.506 0 24.178-10.7 30.15-18.34l-1.11-1.81c-3.89 3.753-7.642 6.254-11.95 6.254-7.78 0-13.34-16.81-17.645-37.1 2.5-3.47 6.53-12.225 9.31-15.28 1.95 3.612 5.978 10.42 15.15 10.42z">
+                    </path>
+                </svg>
+                <div class="makeCenter">
+                    <div class="wrap_head_content">
+                        <h1>The internet, explained</h1>
+                        <div class="link_bar">
+                            <span>By <a href="">Timothy B. Lee |</a>
+                                <a href="">tim@vox.com</a>
+                                <span>| Updated May 14, 2015, 12:38pm EDT</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <img src="https://cdn.vox-cdn.com/thumbor/itBwINvlcG5-II-gyGJsaBlhSsY=/0x0:2183x1456/1075x1075/filters:focal(917x554:1265x902):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/62237929/9519425490_696632b05d_o.0.1541703823.0.jpg" alt="">
+        </div>
+    </div>
+    <div class="container_body">
+        <center>
+            <div class="wrap_content_body">
+                <div class="socialBar">
+                    <a href="https://facebook.com">
+                        <svg viewBox="0 0 21.406 43.754" id="icon_facebook" ><path d="M5.43 43.754v-20.53H0V15.83h5.43V9.518C5.43 4.558 8.635 0 16.024 0c2.99 0 5.204.286 5.204.286l-.175 6.903s-2.257-.03-4.72-.03c-2.663 0-3.09 1.23-3.09 3.26v5.4h8.022l-.35 7.39h-7.672v20.53H5.43z"></path></svg></svg>
+                    </a>
+                    <a href="https://twitter.com">
+                        <svg viewBox="0 0 44.71 36.327" id="icon_twitter"><path d="M44.71 4.295c-1.656.724-3.415 1.242-5.278 1.45A9.146 9.146 0 0 0 43.468.673a18.75 18.75 0 0 1-5.796 2.225C35.965 1.138 33.584 0 30.945 0a9.145 9.145 0 0 0-9.16 9.16c0 .724.052 1.448.208 2.12-7.607-.413-14.335-3.88-18.888-9.417-.777 1.345-1.242 2.742-1.242 4.45 0 3.157 1.604 5.95 4.088 7.607a9.376 9.376 0 0 1-4.14-1.138v.103c0 4.45 3.16 8.176 7.35 9.004-.77.2-1.6.31-2.43.31-.57 0-1.14-.06-1.71-.16 1.14 3.62 4.56 6.31 8.54 6.36-3.1 2.48-7.09 4.34-11.38 4.34-.72 0-1.45-.05-2.17-.16 4.04 2.59 8.9 3.72 14.08 3.72 16.87 0 26.08-13.97 26.08-26.08V9.05c1.76-1.294 3.32-2.9 4.56-4.76"></path></svg>
+                    </a>
+                    <a href="#">
+                        <svg  viewBox="0 0 21 20" id="icon_share">
+                            <path d="M18.4,12.9c-0.3,0-0.6,0.3-0.6,0.6V17c0,1-0.8,1.8-1.8,1.8H3c-1,0-1.8-0.8-1.8-1.8V4C1.2,3,2,2.2,3,2.2h8.4
+                            c0.3,0,0.6-0.3,0.6-0.6S11.7,1,11.3,1H3C1.3,1,0,2.3,0,4V17c0,1.6,1.3,3,3,3H16c1.6,0,3-1.3,3-3v-3.5C19,13.2,18.7,12.9,18.4,12.9z"></path>
+                            <path d="M20.9,5.3C20.9,5.3,20.9,5.3,20.9,5.3c0-0.1,0-0.1,0-0.1c0,0,0,0,0-0.1c0,0,0,0,0-0.1c0,0,0,0,0-0.1c0,0,0,0,0,0
+                            c0,0,0,0,0,0c0,0,0,0,0,0l-4.6-4.6c-0.2-0.2-0.6-0.2-0.8,0s-0.2,0.6,0,0.8l3.3,3.3c-2.1-0.3-5.5-0.3-8.5,1.5
+                            C7.6,7.5,5.9,10,5.2,13.5c-0.1,0.3,0.1,0.6,0.5,0.7c0,0,0.1,0,0.1,0c0.3,0,0.5-0.2,0.6-0.5c0.6-3.1,2.1-5.4,4.3-6.8
+                            c3-1.8,6.7-1.5,8.5-1.2l-3.8,3.9c-0.2,0.2-0.2,0.6,0,0.8c0.1,0.1,0.3,0.2,0.4,0.2s0.3-0.1,0.4-0.2l4.6-4.6c0,0,0,0,0,0
+                            c0,0,0,0,0-0.1c0,0,0,0,0,0c0,0,0,0,0-0.1c0,0,0,0,0-0.1c0,0,0,0,0,0c0,0,0,0,0,0c0,0,0,0,0-0.1C20.9,5.4,20.9,5.4,20.9,5.3
+                            C20.9,5.4,20.9,5.4,20.9,5.3z"></path>
+                        </svg>
+                        <span>Share</span>
+                    </a>
+                </div>
+                <div class="main_content">
+                    <h2>What is the internet?</h2>
+                    <p>The internet is the world’s most popular computer network. It began as an academic research project in 1969, and became a global commercial network in the 1990s. Today it is used by more than 2 billion people around the world.</p>
+                    <p>The internet is notable for its decentralization. No one owns the internet or controls who can connect to it. Instead, thousands of different organizations operate their own networks and negotiate voluntary interconnection agreements.</p>
+                    <p>Most people access internet content using a web browser. Indeed, the web has become so popular that many people incorrectly treat the internet and the web as synonymous. But in reality, the web is just one of many internet applications. Other popular Internet applications include email and BitTorrent.</p>
+
+                    <h2>Where is the internet?</h2>
+                    <p>The internet has three basic parts:</p>
+                    <ul>
+                        <li><p>
+                            <strong>The last mile</strong> is the part of the internet that connects homes and small businesses to the internet. Currently, <strong>about 60 percent</strong> of residential internet connections in the United States are provided by cable TV companies such as Comcast and Time Warner. Of the remaining 40 percent, a growing fraction use new fiber optic cables, most of which are part of Verizon’s FiOS program or AT&T’s U-Verse. Finally, a significant but shrinking number use outdated DSL service provided over telephone cables.
+                            <p>The last mile also includes the towers that allow people to access the internet with their cell phones. Wireless internet service accounts for a large and growing share of all internet usage.</p>
+                        </p></li>
+                        <img src="http://cdn1.vox-cdn.com/assets/4195719/1024px-AMS-IX_optical_patch_panel_medium.jpg" alt="">
+                        <li><p><strong>Data centers</strong> are rooms full of servers that store user data and host online apps and content. Some are owned by large companies such as Google and Facebook. Others are commercial facilities that provide service to many smaller websites. Data centers have very fast internet connections, allowing them to serve many users simultaneously. Data centers can be located anywhere in the world, but they are often located in remote areas where land and electricity are cheap. For example, <strong>Google</strong>, <strong>Facebook</strong>, and <strong>Microsoft</strong> have all constructed vast data centers in Iowa.</p></li>
+                        <li><p>The backbone consists of long-distance networks — mostly on fiber optic cables — that carry data between data centers and consumers. The backbone market is highly competitive. Backbone providers frequently connect their networks together at internet exchange points, usually located in major cities. Establishing a presence at IEPs makes it much easier for backbone providers to improve their connections to others.</p></li>
+                    </ul>
+                    <p>Cables at an Internet Exchange Point. (Fabienne Serriere)</p>
+                    <hr>
+                    <h2>Who created the internet?</h2>
+                        <p>The internet began as ARPANET, an academic research network that was funded by the military’s Advanced Research Projects Agency (ARPA, now DARPA). The project was led by Bob Taylor, an ARPA administrator, and the network was built by the consulting firm of Bolt, Beranek and Newman. It began operations in 1969.</p>
+                        <p>In 1973, software engineers Vint Cerf and Bob Kahn began work on the next generation of networking standards for the ARPANET. These standards, known as TCP/IP, became the foundation of the modern internet. ARPANET switched to using TCP/IP on January 1, 1983.</p>
+                        <p>During the 1980s, funding for the internet shifted from the military to the National Science Foundation. The NSF funded the long-distance networks that served as the internet’s backbone from 1981 until 1994. In 1994, the Clinton Administration turned control over the internet backbone to the private sector. It has been privately operated and funded ever since.</p>
+                    <h2>Did Al Gore invent the internet?</h2>
+                        <p>Former Vice President Al Gore is frequently quoted as claiming credit for the invention of the internet, but what he actually said in a 1999 CNN interview was “I took the initiative in creating the internet.” Gore was widely mocked for this statement. But the men who did invent the internet, TCP/IP designers Bob Kahn and Vint Cerf, wrote in Gore’s defense in 2000. They argue that Gore was “the first political leader to recognize the importance of the internet and to promote and support its development.”</p>
+                        <p>“As far back as the 1970s Congressman Gore promoted the idea of high speedtelecommunications,” the pair wrote. “As a Senator in the 1980s Gore urged government agencies to consolidate what at the time were several dozen different and unconnected networks into an ‘Interagency Network.’” Gore sponsored the 1991 High Performance Computing and Communications Act, which Kahn and Cerf say “became one of the major vehicles for the spread of the internet beyond the field of computer science.“</p>
+                    <h2>Who runs the internet?</h2>
+                        <p>No one runs the internet. It’s organized as a decentralized network of networks. Thousands of companies, universities, governments, and other entities operate their own networks and exchange traffic with each other based on voluntary interconnection agreements.</p>
+                        <p>The shared technical standards that make the internet work are managed by an organization called the Internet Engineering Task Force. The IETF is an open organization; anyone is free to attend meetings, propose new standards, and recommend changes to existing standards. No one is required to adopt standards endorsed by the IETF, but the IETF’s consensus-based decision-making process helps to ensure that its recommendations are generally adopted by the internet community.</p>
+                        <p>The Internet Corporation for Assigned Names and Numbers (ICANN) is sometimes described as being responsible for internet governance. As its name implies, ICANN is in charge of distributing domain names (like vox.com) and IP addresses. But ICANN doesn’t control who can connect to the internet or what kind of information can be sent over it.</p>
+                    <h2>What’s an IP address?</h2>
+                        <p>Internet Protocol addresses are numbers that computers use to identify each other on the internet. For example, an IP address for vox.com is 216.146.46.10.</p>
+                        <p>An ICANN department known as the Internet Assigned Numbers Authority is responsible for distributing IP addresses to ensure that two different organizations don’t use the same address.</p>
+                    <h2>What is IPv6?</h2>
+                        <p>The current internet standard, known as IPv4, only allows for about 4 billion IP addresses. This was considered a very big number in the 1970s, but today, the supply of IPv4 addresses is nearly exhausted.</p>
+                        <p>So internet engineers have developed a new standard called IPv6. IPv6 allows for a mind-boggling number of unique addresses — the exact figure is 39 digits long — ensuring that the world will never again run out.</p>
+                        <p>At first, the transition to IPv6 was slow. Technical work on the standard was completed in the 1990s, but the internet community faced a serious chicken-and-egg problem: as long as most people were using IPv4, there was little incentive for anyone to switch to IPv6.</p>
+                        <p>But as IPv4 addresses became scarce, IPv6 adoption accelerated. The fraction of users who connected to Google via IPv6 grew from 1 percent at the beginning of 2013 to 6 percent in mid-2015.</p>
+                    <h2>How does wireless internet work?</h2>
+                        <p>In its early years, internet access was carried over physical cables. But more recently, wireless internet access has become increasingly common.</p>
+                        <p>There are two basic types of wireless internet access: wifi and cellular. Wifi networks are relatively simple. Anyone can purchase wifi networking equipment in order to provide internet access in a home or business. Wifi networks use unlicensed spectrum: electromagnetic frequencies that are available for anyone to use without charge. To prevent neighbors’ networks from interfering with each other, there are strict limits on the power (and therefore the range) of wifi networks.</p>
+                        <p>Cellular networks are more centralized. They work by breaking up the service territory into cells. In the densest areas, cells can be as small as a single city block; in rural areas a cell can be miles across. Each cell has a tower at its center providing services to devices there. When a device moves from one cell to another, the network automatically hands off the device from one tower to another, allowing the user to continue communicating without interruption.</p>
+                        <p>Cells are too large to use the unlicensed, low-power spectrum used by wifi networks. Instead, cellular networks use spectrum licensed for their exclusive use. Because this spectrum is scarce, it is usually awarded by auction. Wireless auctions have generated tens of billions of dollars in revenue for the US treasury since the first one was held in 1994.</p>
+                    <h2>What is the cloud?</h2>
+                        <p>The cloud describes an approach to computing that has become popular in the early 2000s. By storing files on servers and delivering software over the internet, cloud computing provides users with a simpler, more reliable computing experience. Cloud computing allows consumers and businesses to treat computing as a utility, leaving the technical details to technology companies.</p>
+                        <p>For example, in the 1990s, many people used Microsoft Office to edit documents and spreadsheets. They stored documents on their hard drives. And when a new version of Microsoft Office was released, customers had to purchase it and manually install it on their PCs.</p>
+                        <p>In contrast, Google Docs is a cloud office suite. When a user visits docs.google.com, she automatically gets the latest version of Google Docs. Because her files are stored on Google’s servers, they’re available from any computer. Even better, she doesn’t have to worry about losing her files in a hard drive crash. (Microsoft now has its own cloud office suite called Office 365.)</p>
+                        <p>There are many other examples. Gmail and Hotmail are cloud email services that have largely replaced desktop email clients such as Outlook. Dropbox is a cloud computing service that automatically synchronizes data between devices, saving people from having to carry files around on floppy disks. Apple’s iCloud automatically copies users’ music and other files from their desktop computer to their mobile devices, saving users the hassle of synchronizing via a USB connection.</p>
+                        <p>Cloud computing is having a big impact for businesses too. In the 1990s, companies wanting to create a website needed to purchase and operate their own servers. But in 2006, Amazon.com launched Amazon Web Services, which allows customers to rent servers by the hour. That has lowered the barrier to entry for creating websites and made it much easier for sites to quickly expand capacity as they grow more popular.</p>
+                    <h2>What is a packet?</h2>
+                        <p>A packet is the basic unit of information transmitted over the internet. Splitting information up into small, digestible pieces allows the network’s capacity to be used more efficiently.</p>
+                        <p>A packet has two parts. The header contains information that helps the packet get to its destination, including the length of the packet, its source and destination, and a checksum value that helps the recipient detect if a packet was damaged in transit. After the header comes the actual data. A packet can contain up to 64 kilobytes of data, which is roughly 20 pages of plain text.</p>
+                        <p>If internet routers experience congestion or other technical problems, they are allowed to deal with it by simply discarding packets. It’s the sending computer’s responsibility to detect that a packet didn’t reach its destination and send another copy. This approach might seem counterintuitive, but it simplifies the internet’s core infrastructure, leading to higher performance at lower cost.</p>
+                    <h2>What is the World Wide Web?</h2>
+                        <p>The World Wide Web is a popular way to publish information on the internet. The web was created by Timothy Berners-Lee, a computer programmer at the European scientific research organization CERN, in 1991. It offered a more powerful and user-friendly interface than other internet applications. The web supported hyperlinks, allowing users to browse from one document to another with a single click.</p>
+                        <p>Over time, the web became increasingly sophisticated, supporting images, audio, video, and interactive content. In the mid-1990s, companies such as Yahoo and Amazon.com began building profitable businesses based on the web. In the 2000s, full-featured web-based applications such as Yahoo Maps and Google Docs were created.</p>
+                        <p>In 1994, Berners-Lee created the World Wide Web Consortium (W3C) to be the web’s official standards organization. He is still the W3C’s director and continues to oversee the development of web standards. However, the web is an open platform, and the W3C can’t compel anyone to adopt its recommendations. In practice, the organizations with the most influence over the web are Microsoft, Google, Apple, and Mozilla, the companies that produce the leading web browsers. Any technologies adopted by these four become de facto web standards.</p>
+                        <p>The web has become so popular that many people now regard it as synonymous with the internet itself. But technically, the web is just one of many internet applications. Other applications include email and BitTorrent.</p>
+                    <h2>What’s a web browser?</h2>
+                        <p>A web browser is a computer program that allows users to download and view websites. Web browsers are available for desktop computers, tablets, and mobile phones.</p>
+                        <p>The first widely used browser was Mosaic, created by researchers at the University of Illinois. The Mosaic team moved to California to found Netscape, which built the first commercially successful web browser in 1994.</p>
+                        <p>Netscape’s popularity was soon eclipsed by Microsoft’s Internet Explorer, but an open source version of Netscape’s browser became the modern Firefox browser. Apple released its Safari browser in 2003, and Google released a browser called Chrome in 2008. By 2015, Chrome had grown to be the most popular web browser with a market share around 50 percent. Internet Explorer, Firefox, and Safari also had significant market share.</p>
+                    <h2>What is SSL?</h2>
+                        <p>SSL, short for Secure Sockets Layer, is a family of encryption technologies that allows web users to protect the privacy of information they transmit over the internet.</p>
+                        <p>When you visit a secure website such as Gmail.com, you'll see a lock next to the URL, indicating that your communications with the site are encrypted. Here's what that looks like in Google's Chrome browser:</p>
+                        <img src="http://cdn3.vox-cdn.com/assets/4269173/Screen_Shot_2014-04-08_at_10.55.39_AM.png" alt="">
+                        <p>That lock is supposed to signal that third parties won't be able to read any information you send or receive. Under the hood, SSL accomplishes that by transforming your data into a coded message that only the recipient knows how to decipher. If a malicious party is listening to the conversation, it will only see a seemingly random string of characters, not the contents of your emails, Facebook posts, credit card numbers, or other private information.</p>
+                        <p>SSL was introduced by Netscape in 1994. In its early years, it was only used on a few types of websites, such as online banking sites. By the early 2010s, Google, Yahoo, and Facebook all used SSL encryption for their websites and online services. More recently, there has been a movement toward making the use of SSL universal. In 2015, Mozilla announced that future versions of the Firefox browser would treat the lack of SSL encryption as a security flaw, as a way to encourage all websites to upgrade. Google is considering taking the same step with Chrome.</p>
+                    <h2>What is the Domain Name System?</h2>
+                        <p>The Domain Name System (DNS) is the reason you can access Vox by typing vox.com into your browser rather than a hard-to-remember numeric address such as 216.146.46.10.</p>
+                        <p>The system is hierarchical. For example, the .com domain is administered by a company called Verisign. Verisign assigns sub-domains like google.com and vox.com. Owners of these second-level domains, in turn, can create sub-domains such as mail.google.com and maps.google.com.</p>
+                        <p>Because popular websites use domain names to identify themselves to the public, the security of DNS has become an increasing concern. Criminals and government spies alike have sought to compromise DNS in order to impersonate popular websites such as facebook.com and gmail.com and intercept their private communications. A standard called DNSSEC seeks to beef up DNS security with encryption, but few people have adopted it.</p>
+                        <p>Who decides what domain names exist and who gets them?</p>
+                        <p>The domain name system is administered by the Internet Corporation for Assigned Names and Numbers (ICANN), a non-profit organization based in California. ICANN was founded in 1998. It was granted authority over DNS by the US Commerce Department, though it has increasingly asserted its independence from the US government.</p>
+                        <p>There are two types of domain names. The first is generic top-level domains (gTLDs) such as .com, .edu, .org, and .gov. Because the internet originated in the United States, these domains tend to be most popular there. Authority over these domains is usually delegated to private organizations.</p>
+                        <p>There are also country-code top-level domains (ccTLDs). Each country in the world has its own 2-letter code. For example, the ccTLD for the United States is .us, Great Britain’s is .uk, and China’s is .cn. These domains are administered by authorities in each country. Some ccTLDs, such as .tv (for the island nation of Tuvalu) and .io (the British Indian Ocean Territory), have become popular for use outside of their home countries.</p>
+                        <p>In 2011, ICANN voted to make it easier to create new gTLDs. As a result, there may be dozens or even hundreds of new domains in the next few years.</p>
+                        <hr>
+                    <h2>Will you support Vox’s explanatory journalism?</h2>
+                        <p>Millions turn to Vox to understand what’s happening in the news. Our mission has never been more vital than it is in this moment: to empower through understanding. Financial contributions from our readers are a critical part of supporting our resource-intensive work and help us keep our journalism free for all. <strong>Please consider making a contribution to Vox today to help us keep our work free for all.</strong></p>
+            </div>
+        </center>
+    </div>
+    <div class="footer" id="bot">
+        <div class="container_foot">
+            <div class="three_new">
+                <a href="#">
+                    <div class="wrap_content_three">
+                        <h6>Vox Conversations</h6>
+                        <h3>Here are the 9 most interesting conversations I had in 2021</h3>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="wrap_content_three">
+                        <h6>THE GOODS</h6>
+                        <h3>Money has never felt more fake</h3>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="wrap_content_three">
+                        <h6>THE GOODS</h6>
+                        <h3>How 7 people spent their money when they didn’t have to pay student loans</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="other_post">
+                <center><a href="#">View all stories in The Latest</a></center>
+                <h2>Sponsored Content</h2>
+                <hr color="#FFF200">
+                <center>
+                    <div class="wrap_content_six">
+                        <div class="six_posts">
+                            <img src="https://images.outbrainimg.com/transform/v3/eyJpdSI6Ijk4NzdkYzUwNjdkYTcwYzRkYjllMTcxMzM1ZGUzNzdlMTdmOTBjZjdkMzAyMGYwMzZhMTcyN2FjMDEyYzJhMWUiLCJ3IjozNDAsImgiOjM4MCwiZCI6MS41LCJjcyI6MCwiZiI6MH0.jpg" alt="">
+                            <div class="text_box">
+                                <h4 class="text">Why is Everyone in Vietnam Going Crazy Over This Inexpensive Smartwatch?</h4>
+                                <h6 class="domain">topgadgetreviewer.com</h6>
+                            </div>
+                        </div>
+                        <div class="six_posts">
+                            <img src="https://images.outbrainimg.com/transform/v3/eyJpdSI6IjYyNGMwYjAxZTAwM2ZkYzA2YmFiYmM2OGNlYTU0YWM4MjM3YWNlZjcyYTlmZDhjNDcyZWZhYjlkZTA0NjYwMTgiLCJ3IjozNDAsImgiOjM4MCwiZCI6MS41LCJjcyI6MCwiZiI6MH0.jpg" alt="">
+                            <div class="text_box">
+                                <h4 class="text">The list of 22 reasons to learn a new language in 2022.</h4>
+                                <h6 class="domain">Babbel.com</h6>
+                            </div>
+                        </div>
+                        <div class="six_posts">
+                            <img src="https://images.outbrainimg.com/transform/v3/eyJpdSI6IjU2MmJmYWYzNzM2Nzc3YzNkMGQ0M2MyMmFkODJmMWE2NDA4NmY1YzhiZjQ3MjlmN2QyMmE1MmIxMDA2NjZmZDkiLCJ3IjozNDAsImgiOjM4MCwiZCI6MS41LCJjcyI6MCwiZiI6MH0.jpg" alt="">
+                            <div class="text_box">
+                                <h4 class="text">Merry Christmas -Discounts Up to 35% Off</h4>
+                                <h6 class="domain">Meet the fabric of NAP and the Story Behind the Brand.</h6>
+                            </div>
+                        </div>
+                        <div class="six_posts">
+                            <img src="https://images.outbrainimg.com/transform/v3/eyJpdSI6IjNkZGI0MWY2OWY3Y2M0NWIxMmIzNjlmY2M5MTM5ZjllZTRjZjUxNjBlNzU5NDlhMGNjZWQ0MzJmNzMxZTdmMjAiLCJ3IjozNDAsImgiOjM4MCwiZCI6MS41LCJjcyI6MCwiZiI6MH0.jpg" alt="">
+                            <div class="text_box">
+                                <h4 class="text">Découvrez ce que le jeûne peut faire à votre corps !</h4>
+                                <h6 class="domain">Néo-nutrition</h6>
+                            </div>
+                        </div>
+                        <div class="six_posts">
+                            <img src="https://images.outbrainimg.com/transform/v3/eyJpdSI6ImE5MzhiNzc5MTEwZjNlYTUzMDc4MTU2ZTFlOGE4YzE5N2VkMDQ5NGQ0ZTlmYmM0YTU0NDA4ZDdlNzk3OTU2MDAiLCJ3IjozNDAsImgiOjM4MCwiZCI6MS41LCJjcyI6MCwiZiI6MH0.jpg" alt="">
+                            <div class="text_box">
+                                <h4 class="text">Get 35% Off with code "latlive35"</h4>
+                                <h6 class="domain">Creative Essentials</h6>
+                            </div>
+                        </div>
+                        <div class="six_posts">
+                            <img src="https://images.outbrainimg.com/transform/v3/eyJpdSI6IjkwYjM1M2QwN2YyYzJlNTQwNjRhZWI1NDhjZTZmZTY1NmRkY2Y5NDQwNDA5YzJmNDllZmNlOTE0YjMwMzNjODAiLCJ3IjozNDAsImgiOjM4MCwiZCI6MS41LCJjcyI6MCwiZiI6MH0.jpg" alt="">
+                            <div class="text_box">
+                                <h4 class="text">How to Heat Any Room in Minutes (Do This)</h4>
+                                <h6 class="domain">Portable Space Heater</h6>
+                            </div>
+                        </div>
+                    </div>
+                </center>
+            </div>
+            <div class="ask">
+                <center>
+                    <div class="wrap_ask">
+                        <div class="wrap_question">
+                            <h2 class="question">WE have an ask</h2>
+                            <p>A battle for voting rights. An uncertain future for abortion rights. Inequities in housing, caregiving, and healthcare access. Millions turn to Vox to understand complex problems such as these, and potential solutions. Financial gifts from readers help us plan that work and keep it free. Give today to help us hit our goal of 6,000 new financial contributions by the new year.</p>
+                        </div>
+                        <button>Yes, I"ll give</button>
+                    </div>
+                </center>
+            </div>
+            <div class="main_footer">
+                <center>
+                    <div class="wrap_foot">
+                        <svg id="logo_in_hideBar" viewBox="0 0 242 121">
+                            <path fill="#444745" d="M110.674 3.528h3.474L114.564 2H71.63l-.418 1.528h6.253c5.418 0 9.726 3.75 9.726 11.255 0 4.168-1.8 9.587-4.72 16.118L54.82 92.32l-6.81-79.756c-.556-6.252 2.5-9.03 9.59-9.03h4.027L62.042 2H1.6l-.557 1.528h3.89c4.725 0 6.532 2.918 7.087 8.615l10.7 103.1h25.427l42.518-90.038c6.392-13.48 13.2-21.677 20.01-21.677zm-5.002 112.27c-3.89 0-6.253-1.25-6.253-7.642 0-8.06 2.91-23.76 6.11-38.072.41 6.67 5 13.2 11.81 13.2 1.67 0 3.06-.138 4.44-.417-6.26 27.236-8.76 32.932-16.12 32.932zm121.024-54.19c8.06 0 13.2-6.67 13.2-14.173 0-6.392-4.585-11.116-11.115-11.116-11.81 0-17.36 9.31-27.09 26.53-2.08-10.7-6.94-24.73-19.45-24.73-14.03 0-30.15 20.01-45.02 32.37-6.67 5.56-14.17 9.17-20.15 9.17-6.11 0-9.72-6.26-9.72-17.23 4.31-17.93 6.67-22.65 13.34-22.65 4.59 0 6.53 2.64 6.53 8.06 0 5.69-1.25 15.42-3.75 27.51 6.67-2.09 16.68-10.42 25.01-19.45-4.44-10.56-13.89-17.79-27.65-17.79-25.42 0-47.66 22.78-47.66 48.35 0 17.65 12.51 30.984 32.1 30.984 32.38 0 45.86-28.066 45.86-47.52 0-2.78-.14-4.86-.42-7.364C155.717 57.14 162.108 52 167.388 52c5.975 0 10.7 15.007 15.423 37.657-4.17 4.58-8.34 13.474-10.42 15.002-.836-8.06-6.115-13.06-13.2-13.06-7.92 0-13.48 7.5-13.48 13.893 0 7.226 5 11.95 11.53 11.95 13.76 0 17.65-13.062 26.265-24.595 2.64 12.363 8.754 24.59 19.313 24.59 12.506 0 24.178-10.7 30.15-18.34l-1.11-1.81c-3.89 3.753-7.642 6.254-11.95 6.254-7.78 0-13.34-16.81-17.645-37.1 2.5-3.47 6.53-12.225 9.31-15.28 1.95 3.612 5.978 10.42 15.15 10.42z">
+                            </path>
+                        </svg>
+                        <div class="list_other">
+                            <ul class="ul_foot">
+                                <li>Terms of Use</li>
+                                <li>Privacy Notice</li>
+                                <li>Cookie Policy</li>
+                                <li>Do Not Sell My Personal Info</li>
+                                <li>Licensing FAQ</li>
+                                <li>Accessibility</li>
+                                <li>Platform Status</li>
+                            </ul>
+                            <div class="clear"></div>
+                            <ul class="ul_foot">
+                                <li>Contact</li>
+                                <li>Send Us a Tip</li>
+                                <li>Masthead</li>
+                                <li>About Us</li>
+                                <li>Press Room</li>
+                                <li>Editorial</li>
+                                <li>Ethics and Guidelines</li>
+                            </ul>
+                        </div>
+                        <div class="other_right">
+                            <h1>VOXMEDIA</h1>
+                            <p>Author Login</p>
+                            <p>Advertise with us</p>
+                            <p>Jobs @ Vox Media</p>
+                            <p>© 2022 Vox Media, LLC. All Rights Reserved</p>
+                        </div>
+                    </div>
+                </center>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
